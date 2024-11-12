@@ -19,6 +19,9 @@ import asyncio
 from threading import Thread
 import pyautogui
 
+def notify() -> bool:
+    return True
+
 tab_index = {
     "1xbetcom" : -1,
     "bodog" : -1,
